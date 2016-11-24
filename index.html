@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Random Quote Machine</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initital-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Paytone+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Sail" rel="stylesheet">
+	
+	<script src="quote.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	 <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.5.1.js"></script>
+
+
+
+</head>
+	<body>
+
+	
+		<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-12 logo ">
+						<img class="img-responsive " src="http://res.cloudinary.com/divogwk0j/image/upload/v1478621575/random-quotes-machine_u951rt.png" alt="Quotes Logo">
+					</div>
+				</div>
+		</div>
+
+
+	<div class="container quote-body">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<blockquote class="blockquote">
+						<span id="quoteDisplay">" The key to immortality is first living a life worth remembering. "</span>
+					</blockquote>
+						<footer class="blockquote-footer" ><span id="authorDisplay">- Bruce Lee</span></footer><br>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<button id="button-quote" class="btn btn-default btn-lg btn-block btn-quote" onclick="randomQuotes()">Random Quotes</button>
+
+					<button id="tweet-tweet" class="btn btn-default btn-lg btn-block btn-tweet" onclick="tweet()" target="_blank"><i class="fa fa-twitter">  Tweet !</i></button> 
+				</div>
+			</div>
+	</div>
+		
+
+	
+		<div class="container-fluid footer navbar navbar-fixed-bottom">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+
+					<ul class="list-inline">
+
+					<li><a href="https://www.linkedin.com/in/renz-mallari-30384776" id="linkedin" class="btn btn btn-default btn-lg" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+
+					<li><a href="https://www.freecodecamp.com/hmmwow" id="fcc" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-free-code-camp"></i></a></li>
+					
+					<li><a href="https://github.com/hmmwow" id="git" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-github"></i></a></li>
+				  	
+					</ul>
+
+					<font color="#fff"><p>&copy 2016 Coded by <a href="https://www.freecodecamp.com/hmmwow" target="_blank"><strong>Renz Jayson Mallari</strong></p></a></font>
+
+				  	
+				</div>
+			</div>
+		</div>
+	</body>
+
+</html>	
